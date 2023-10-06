@@ -1,46 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-section{
-    display: flex;
-    padding-top: 60px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+section {
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-header{
-    color: white;
-    background-color: #0057FF;
-    display: flex;
-    width: 680px;
-    height: 60px;
-    /* padding: 13px 191px; */
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 6px;
-
+header {
+  color: white;
+  background-color: #0057ff;
+  display: flex;
+  width: 680px;
+  height: 60px;
+  /* padding: 13px 191px; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
 }
 
-header h1{
-    font-weight: 600;
+header h1 {
+  font-weight: 600;
 }
 
-main{
-    width: 680px;
-    height: 461px;
-    border-radius: 6px;
-    background: #F3F3F3;
+main {
+  width: 680px;
+  height: 461px;
+  border-radius: 6px;
+  background: #f3f3f3;
+}
+
+.task-input {
+  display: flex;
+  width: 508px;
+  padding: 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #b0b0b0;
+  color: #5e5e5e;
+  background: #e8e8e8;
+}
+
+input::placeholder {
+  color: #5e5e5e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Sec1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  display: flex;
+  width: 112px;
+  height: 50px;
+  padding: 10px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  color: white;
+  background: #003566;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #002855; /* Change the background color on hover */
+  transform: scale(1.05); /* Apply a scale transformation on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  padding: 0px 30px 0px 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
