@@ -105,4 +105,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
